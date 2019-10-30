@@ -9,7 +9,7 @@ from tensorflow import keras
 from tensorflow.keras import layers
 
 
-dataset_path="C:/Users/Hiral/Desktop/DLNLP/A1/a1.1/housing.csv"
+dataset_path="housing.csv"
 
 raw_dataset = pd.read_csv(dataset_path)
 dataset=raw_dataset.copy()
